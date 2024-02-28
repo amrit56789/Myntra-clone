@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    images: {
+      domains: ['images.myntra.com', 'assets.myntassets.com', 'lmsin.net'],
+    },
+  }
+  
+  module.exports = nextConfig;
+  
